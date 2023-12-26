@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(ec2-16-171-241-226.eu-north-1.compute.amazonaws.com)
+domains=(ec2-16-16-215-52.eu-north-1.compute.amazonaws.com)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="ecene@yildiz.edu.tr" # Adding a valid address is strongly recommended
